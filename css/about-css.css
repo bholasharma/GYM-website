@@ -1,0 +1,64 @@
+/* navbar */
+
+.fluid-container{
+    background-color:white;
+    padding:2% 5%;
+    text-transform:uppercase;
+}
+.navbar .navbar-brand{
+    color:gray;
+    font-size:30px;
+    font-weight:600;
+}
+.navbar .navbar-nav a.nav-link{
+    color:black;
+    font-size:15px;
+    font-weight:500;
+    padding:0px 30px;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .active>.nav-link,
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link.show,
+.navbar .navbar-nav .show>.nav-link {
+	color: grey;
+}
+/* about descriptiton */
+.about{
+  padding:2% 5%;
+}
+h1{
+  font-size:4rem;
+  font-weight:700;
+  letter-spacing: 0.5px;
+}
+p{
+  font-size:1.8rem;
+  font-weight:450;
+}
+#t02{
+padding:10% 0%;
+}
+/* carousel */
+.slider{
+  background-color:lightgray;
+  text-align: center;
+  padding:5%;
+}
+.carousel1{
+  width:80%;
+  height:50%;
+}
+.carousel5{
+  width:80%;
+  height:50%;
+}
+/* equipment */
+.equipment{
+  padding:10% 5%;
+}
+/* open timing */
+.open-timing{
+  background-color:lightgray;
+  padding:5% 5%;
+}
