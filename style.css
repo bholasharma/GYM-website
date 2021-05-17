@@ -1,0 +1,126 @@
+/* header */
+.header{
+  background-image:url('images/banner-img3.jpg');
+  background-position: center center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  padding-bottom:5%;
+}
+/* navbar */
+
+.fluid-container{
+    padding:1% 5%;
+    color:white;
+}
+.navbar .navbar-brand{
+    color:white;
+    font-size:3.5rem;
+    font-weight:700;
+    text-transform:uppercase;
+}
+.navbar .navbar-nav a.nav-link{
+color:white;
+font-size: 1.2rem;
+padding:0px 15px;
+text-transform:uppercase;
+font-weight:600;
+}
+.navbar .navbar-nav a.nav-link:hover{
+    color:blue;
+}
+/* membership */
+.membership1{
+  padding:10% 5%;
+}
+.membership{
+  text-align: center;
+}
+#t02{
+  text-align: left;
+  padding-top:10px;
+}
+
+
+
+
+/* group and private classes */
+.group{
+  background-image: url('images/banner-img4new.jpg');
+  background-position: center center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:local;
+  color:white;
+}
+.group-intro{
+  padding:15% 5% 15% 5%;
+}
+.classes-link{
+  border:none;
+  border-bottom-style:solid;
+  border-color:yellow;
+  color:yellow;
+  font-size:1.5rem;
+}
+.classes-link:hover{
+  color:white;
+  border:none;
+}
+
+
+
+
+
+
+/* quote */
+.quatation{
+  width:50%;
+  padding:10% 3%;
+}
+q{
+  color:black;
+  font-size:4rem;
+  font-weight:700;
+  text-align:left;
+  letter-spacing: 0.5px;
+}
+@media (max-width:1028px){
+  .quatation{
+    width:100%;
+  }
+  q{
+    font-size: 2rem;
+  }
+}
+
+
+
+
+
+
+/* Trainers */
+.trainers{
+  background-image: url('images/trainer.jpg');
+  background-position: center center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  color:white;
+  padding:20% 5%;
+}
+.trainers-page{
+  border:none;
+  border-bottom-style:solid;
+  border-color:yellow;
+  color:yellow;
+  font-size:1.5rem;
+}
+.trainers-page:hover{
+  border:none;
+  color:white;
+}
+/* opening timing */
+.open-timing{
+  padding:8% 3% 5% 3%;
+}

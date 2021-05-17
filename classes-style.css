@@ -1,0 +1,63 @@
+
+h1{
+  font-size:4rem;
+  font-weight: 700;
+  letter-spacing:1px;
+}
+
+
+p{
+  font-size:1.9rem;
+  font-weight:450;
+}
+@media (max-width:900px){
+  h1{
+    font-size:2rem;
+    font-weight: 600;
+    padding-bottom:3%;
+  }
+  p{
+    font-size:1.5rem;
+    font-weight:normal;
+  }
+}
+
+.fluid-container{
+    background-color:white;
+    padding:2% 5%;
+    text-transform:uppercase;
+}
+.navbar .navbar-brand{
+    color:gray;
+    font-size:30px;
+    font-weight:600;
+}
+.navbar .navbar-nav a.nav-link{
+    color:black;
+    font-size:15px;
+    font-weight:500;
+    padding:0px 30px;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .active>.nav-link,
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link.show,
+.navbar .navbar-nav .show>.nav-link {
+	color: grey;
+}
+/* classes */
+.classes{
+  padding:2% 5% 5% 5%;
+}
+/* classes information */
+.classes-intro{
+  padding-bottom:10%;
+}
+.cards{
+  padding:3%;
+}
+/* open timing */
+.open-timing{
+  background-color:lightgray;
+  padding:5% 5%;
+}
